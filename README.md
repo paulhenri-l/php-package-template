@@ -1,6 +1,6 @@
 # PhpPackageTemplate
 
-Configure your laravel project for docker
+Create new packages with ease.
 
 ## Usage
 
