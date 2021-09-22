@@ -1,0 +1,28 @@
+{
+    "name": "paulhenri-l/php-package-template",
+    "description": "Configure your laravel project for docker",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "paulhenri-l",
+            "email": "25308170+paulhenri-l@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "symfony/console": "^5.3",
+        "illuminate/support": "^8.61"
+    },
+    "autoload": {
+        "psr-4": {
+            "PaulhenriL\\PhpPackageTemplate\\": "src/"
+        }
+    },
+    "bin": [
+        "bin/php-package-template"
+    ],
+    "require-dev": {
+        "symfony/var-dumper": "^5.3"
+    }
+}

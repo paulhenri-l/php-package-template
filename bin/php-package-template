@@ -1,0 +1,23 @@
+#!/usr/bin/env php
+<?php
+
+$autoloadCandidates = [
+    __DIR__ . '/../../autoload.php',
+    __DIR__ . '/../vendor/autoload.php',
+    __DIR__ . '/vendor/autoload.php'
+];
+
+foreach ($autoloadCandidates as $file) {
+    if (file_exists($file)) {
+        require_once $file;
+        break;
+    }
+}
+
+use Symfony\Component\Console\Application;
+
+$application = new Application();
+
+$application->add(new \PaulhenriL\PhpPackageTemplate\InstallCommand);
+
+$application->run();
