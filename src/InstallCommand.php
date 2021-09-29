@@ -125,7 +125,7 @@ class InstallCommand extends Command
         );
 
         $contents = str_replace(
-            'stub-project-camel-name',
+            'StubProjectName',
             Str::studly($this->input->getArgument('project-name')),
             $contents
         );

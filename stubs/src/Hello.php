@@ -1,6 +1,6 @@
 <?php
 
-namespace PaulhenriL\stub-project-camel-name;
+namespace PaulhenriL\StubProjectName;
 
 class Hello
 {

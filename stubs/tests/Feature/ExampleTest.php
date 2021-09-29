@@ -1,8 +1,8 @@
 <?php
 
-namespace PaulhenriL\stub-project-camel-name\Tests\Feature;
+namespace PaulhenriL\StubProjectName\Tests\Feature;
 
-use PaulhenriL\stub-project-camel-name\Tests\TestCase;
+use PaulhenriL\StubProjectName\Tests\TestCase;
 
 class ExampleTest extends TestCase
 {
